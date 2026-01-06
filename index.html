@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navber-brand" href="#">
+            <img src="OBMC 60 Icon_Circle.png" alt="logo" width="50px" height="50px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"></button>OB Montessori Center
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" target="_self">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html" target="_self">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="enroll.html" target="_self">Enroll</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" target="_self">Contact</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>  
+</nav>
+
+<div class="container border mt-4">
+    <center>
+        <br><h1>OBMC Admission Form</h1>
+    </center>
+
+    <div class="Student Information">
+    <h3>Student Information</h3>    
+    <div class="container row pt-4">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="Fname">First Name</label>
+          <input type="name" class="form-control" id="Fname" placeholder="First Name">       
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="Lname">Last Name</label>
+          <input type="name" class="form-control" id="Lname" placeholder="Last Name">       
+        </div>
+      </div>
+        </div> 
+
+        <div class="container row pt-4">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="Bday">Birthdate</label>
+          <input type="name" class="form-control" id="Bday" placeholder="Birthdate">       
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="gender">Grade Level</label>
+            <select class="form-control" id="gender">
+              <option value="gender">Select Gender</option>               
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+
+      <div class="col-md-4">
+        <label for="gr">Grade Level</label>
+            <select class="form-control" id="gr">
+              <option value="gr">Select Grade level</option>
+              <option value="casa">Casa</option>
+              <option value="jcase">Junior Casa</option>
+              <option value="jacasa">Junior Advanced Casa</option>
+              <option value="acasa">Advanced Casa</option>          
+              <option value="g1">Grade 1</option>
+              <option value="g2">Grade 2</option>
+              <option value="g3">Grade 3</option>
+              <option value="g4">Grade 4</option>
+              <option value="g5">Grade 5</option>
+              <option value="g6">Grade 6</option>
+              <option value="g7">Grade 7</option>
+              <option value="g8">Grade 8</option>
+              <option value="g9">Grade 9</option>
+              <option value="g10">Grade 10</option>
+              <option value="g11">Grade 11</option>
+              <option value="g12">Grade 12</option>
+            </select>
+          </div>
+        </div>  
+    </div>
+
+    <div class="Contact Information">
+    <br><h3>Contact Information</h3>
+
+    <div class="container row pt-4">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="name" class="form-control" id="email" placeholder="@example.com">       
+        </div>
+      </div>
+    </div> 
+
+    <div class="container row pt-4">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="contactno.">Contact Number</label>
+          <input type="name" class="form-control" id="contactno." placeholder="Contact Number">       
+        </div>
+      </div>
+    </div>    
+    </div>
+
+    <div class="Other Information">
+    <br><h3>Other Information</h3>
+    <h4>Mode of Learning</h4> 
+        <div class="container">
+            <input type="radio" id="Online" name="mode">
+            <label for="Online">Online</label><br>
+
+            <input type="radio" id="f2f" name="mode">
+            <label for="f2f">Face-To-Face</label><br>  
+            <center>
+            <input type="submit" value="Submit">  
+            </center>
+        </div>     
+    </div>
+</div>    
+
+
+
+
+
+
+</body>
+</html>
